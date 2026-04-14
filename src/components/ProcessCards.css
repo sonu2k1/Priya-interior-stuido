@@ -2,35 +2,11 @@
 .process {
   position: relative;
   padding: 0 0 60px;
-  overflow: hidden;
+  margin-top: -80px;
+  z-index: 10;
 }
 
-.process__bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 180px;
-  z-index: 0;
-}
 
-.process__bg-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-}
-
-.process__bg-overlay {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    180deg,
-    rgba(248, 246, 242, 0.3) 0%,
-    rgba(248, 246, 242, 0.85) 60%,
-    rgba(248, 246, 242, 1) 100%
-  );
-}
 
 .process__container {
   position: relative;
@@ -44,7 +20,6 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 28px;
-  transform: translateY(-40px);
 }
 
 /* Process Card */
@@ -162,9 +137,7 @@
     gap: 20px;
   }
 
-  .process__bg {
-    height: 120px;
-  }
+
 }
 
 @media (max-width: 600px) {

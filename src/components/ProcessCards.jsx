@@ -45,10 +45,7 @@ const ProcessCards = () => {
     <>
       {/* Process Cards Section */}
       <section className="process" id="about">
-        <div className="process__bg">
-          <img src="/images/living-room2.jpg" alt="" className="process__bg-img" />
-          <div className="process__bg-overlay" />
-        </div>
+
         <div className="process__container">
           <div className="process__grid">
             {processData.map((item, i) => (
