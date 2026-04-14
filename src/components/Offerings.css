@@ -1,0 +1,99 @@
+.offerings {
+  padding: 80px 0;
+  background: var(--white);
+}
+
+.offerings__container {
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.offerings__title {
+  text-align: center;
+  font-family: var(--font-heading);
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: var(--text-dark);
+  margin-bottom: 48px;
+  letter-spacing: 1px;
+}
+
+.offerings__title-accent {
+  color: var(--gold);
+  font-style: italic;
+}
+
+.offerings__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+.offering-card {
+  background: var(--white);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  transition: all var(--transition-base);
+}
+
+.offering-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-lg);
+  border-color: rgba(212, 160, 48, 0.2);
+}
+
+.offering-card__image-wrapper {
+  height: 200px;
+  overflow: hidden;
+}
+
+.offering-card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--transition-slow);
+}
+
+.offering-card:hover .offering-card__image {
+  transform: scale(1.08);
+}
+
+.offering-card__content {
+  padding: 24px 20px;
+  text-align: center;
+}
+
+.offering-card__title {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 10px;
+}
+
+.offering-card__desc {
+  font-size: 0.88rem;
+  color: var(--text-body);
+  line-height: 1.6;
+}
+
+@media (max-width: 900px) {
+  .offerings__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .offerings__grid {
+    grid-template-columns: 1fr;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .offerings__title {
+    font-size: 1.6rem;
+  }
+}
