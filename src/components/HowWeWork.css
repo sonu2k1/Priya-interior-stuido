@@ -19,7 +19,7 @@
 .how-work__bg-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(180, 130, 20, 0.88);
+  background: rgba(180, 130, 20, 0.55);
 }
 
 .how-work__container {
@@ -87,6 +87,31 @@
   font-size: 0.9rem;
   color: rgba(255, 255, 255, 0.85);
   line-height: 1.7;
+}
+
+.how-work__cta-wrapper {
+  text-align: center;
+  margin-top: 48px;
+}
+
+.how-work__cta {
+  background: transparent;
+  color: var(--white);
+  border: 2px solid var(--white);
+  padding: 14px 40px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: all var(--transition-base);
+  letter-spacing: 0.5px;
+}
+
+.how-work__cta:hover {
+  background: var(--white);
+  color: var(--gold);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
 }
 
 @media (max-width: 900px) {

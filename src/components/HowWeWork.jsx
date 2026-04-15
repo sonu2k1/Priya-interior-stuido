@@ -67,6 +67,20 @@ const HowWeWork = () => {
             </div>
           ))}
         </div>
+        <div className="how-work__cta-wrapper">
+          <button
+            className="how-work__cta"
+            id="how-work-cta-btn"
+            onClick={() => {
+              const heroSection = document.getElementById('hero');
+              if (heroSection) {
+                heroSection.scrollIntoView({ behavior: 'smooth' });
+              }
+            }}
+          >
+            Get Free Price Estimate
+          </button>
+        </div>
       </div>
     </section>
   );

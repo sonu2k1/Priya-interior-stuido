@@ -107,3 +107,19 @@ ul {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--gold-dark);
 }
+
+/* ===== Global Section Heading Underline ===== */
+.happy__title,
+.solutions__title,
+.offerings__title,
+.why-us__title,
+.projects__title,
+.services__title,
+.testimonials__title,
+.trending__title,
+.how-work__title,
+.footer__cta-title {
+  display: inline-block;
+  padding-bottom: 10px;
+  border-bottom: 3px solid var(--gold);
+}
