@@ -1,6 +1,4 @@
-import { useState } from 'react';
 import './Hero.css';
-import EstimateForm from './EstimateForm';
 
 const Hero = () => {
   return (
@@ -45,9 +43,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="hero__form-wrapper">
-          <EstimateForm />
-        </div>
+
       </div>
     </section>
   );

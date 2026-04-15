@@ -2,9 +2,9 @@ import './Footer.css';
 
 const Footer = () => {
   const scrollToForm = () => {
-    const heroSection = document.getElementById('hero');
-    if (heroSection) {
-      heroSection.scrollIntoView({ behavior: 'smooth' });
+    const section = document.getElementById('how-we-work');
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
     }
   };
 

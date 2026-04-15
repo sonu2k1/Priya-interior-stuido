@@ -2,8 +2,8 @@ import './HappyCustomers.css';
 
 const HappyCustomers = () => {
   const scrollToForm = () => {
-    const hero = document.getElementById('hero');
-    if (hero) hero.scrollIntoView({ behavior: 'smooth' });
+    const section = document.getElementById('how-we-work');
+    if (section) section.scrollIntoView({ behavior: 'smooth' });
   };
 
   return (

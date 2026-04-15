@@ -40,8 +40,7 @@
   padding: 120px 32px 80px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 60px;
+  justify-content: center;
 }
 
 /* Content Left */
@@ -145,12 +144,7 @@
   background: rgba(255, 255, 255, 0.2);
 }
 
-/* Form Wrapper */
-.hero__form-wrapper {
-  flex-shrink: 0;
-  width: 420px;
-  animation: fadeInRight 0.8s ease-out 0.4s both;
-}
+
 
 /* Animations */
 @keyframes fadeInUp {
@@ -204,11 +198,6 @@
   .hero__title {
     font-size: 2.6rem;
     text-align: center;
-  }
-
-  .hero__form-wrapper {
-    width: 100%;
-    max-width: 440px;
   }
 
   .hero__overlay {
