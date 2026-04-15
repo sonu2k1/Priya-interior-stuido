@@ -31,7 +31,7 @@ const processData = [
       </svg>
     ),
     title: 'Execution',
-    desc: 'As Mumbai, MH top interior design firm, we handle turnkey transformations. Beyond design, we ensure that the space is functional and truly yours.',
+    desc: 'As Pune\'s top interior design firm, we handle turnkey transformations. Beyond design, we ensure that the space is functional and truly yours.',
   },
 ];
 
@@ -70,7 +70,7 @@ const ProcessCards = () => {
             Why <span className="why-us__title-accent">Priya Interior Studio?</span>
           </h2>
           <p className="why-us__desc">
-            We are one of the leading interior design companies in Mumbai, MH, specializing in transforming spaces. If you're looking to elevate your home's interiors with style and sophistication, we're the perfect team to bring your vision to life.
+            We are one of the leading interior design companies in Pune, specializing in transforming spaces. If you're looking to elevate your home's interiors with style and sophistication, we're the perfect team to bring your vision to life.
           </p>
           <button className="why-us__cta" onClick={scrollToForm} id="why-us-cta-btn">
             Get Free Estimate Price

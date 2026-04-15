@@ -38,7 +38,7 @@ const Footer = () => {
                 </div>
               </div>
               <p className="footer__brand-desc">
-                Creating premium home interiors that reflect your personality and elevate your lifestyle. Trusted by 500+ homeowners in Mumbai.
+                Creating premium home interiors that reflect your personality and elevate your lifestyle. Trusted by 500+ homeowners in Pune.
               </p>
             </div>
 
@@ -59,7 +59,7 @@ const Footer = () => {
               <ul className="footer__contact">
                 <li>
                   <span className="footer__contact-icon">📍</span>
-                  Mumbai, Maharashtra, India
+                  Pune, Maharashtra, India
                 </li>
                 <li>
                   <span className="footer__contact-icon">📞</span>

@@ -22,8 +22,7 @@ const Hero = () => {
           </div>
           <h1 className="hero__title">
             Premium Home<br />
-            Interiors in Mumbai,<br />
-            <span className="hero__title-accent">MH</span>
+            Interiors in Pune
           </h1>
           <p className="hero__subtitle">
             Residential Interior&nbsp; |&nbsp; Turnkey Projects&nbsp; |&nbsp; Modular Interiors

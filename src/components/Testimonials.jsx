@@ -5,7 +5,7 @@ const testimonialsData = [
   {
     id: 1,
     name: 'Priya Sharma',
-    location: 'Andheri, Mumbai',
+    location: 'Kothrud, Pune',
     rating: 5,
     text: 'Priya Interior Studio transformed our 3BHK into a stunning modern space. The attention to detail and quality of work exceeded our expectations. Highly recommend!',
     avatar: 'PS',
@@ -13,7 +13,7 @@ const testimonialsData = [
   {
     id: 2,
     name: 'Rahul Mehra',
-    location: 'Bandra, Mumbai',
+    location: 'Koregaon Park, Pune',
     rating: 5,
     text: 'Exceptional service from start to finish. The team was professional, delivered on time, and the modular kitchen they designed is absolutely gorgeous.',
     avatar: 'RM',
@@ -21,7 +21,7 @@ const testimonialsData = [
   {
     id: 3,
     name: 'Anjali & Karan Desai',
-    location: 'Powai, Mumbai',
+    location: 'Hinjewadi, Pune',
     rating: 5,
     text: 'We chose Priya Interior Studio for our villa project and couldn\'t be happier. The turnkey service was seamless and the result is a dream home.',
     avatar: 'AD',

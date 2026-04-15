@@ -57,16 +57,6 @@ const HowWeWork = () => {
       </div>
       <div className="how-work__container">
         <h2 className="how-work__title">HOW DO WE WORK?</h2>
-        <div className="how-work__grid">
-          {steps.map((step, i) => (
-            <div className="how-work__step" key={i} id={`step-${i}`}>
-              <span className="how-work__number">{step.number}</span>
-              <div className="how-work__icon">{step.icon}</div>
-              <h3 className="how-work__step-title">{step.title}</h3>
-              <p className="how-work__step-desc">{step.desc}</p>
-            </div>
-          ))}
-        </div>
         <div className="how-work__cta-wrapper">
           <button
             className="how-work__cta"
@@ -80,6 +70,16 @@ const HowWeWork = () => {
           >
             Get Free Price Estimate
           </button>
+        </div>
+        <div className="how-work__grid">
+          {steps.map((step, i) => (
+            <div className="how-work__step" key={i} id={`step-${i}`}>
+              <span className="how-work__number">{step.number}</span>
+              <div className="how-work__icon">{step.icon}</div>
+              <h3 className="how-work__step-title">{step.title}</h3>
+              <p className="how-work__step-desc">{step.desc}</p>
+            </div>
+          ))}
         </div>
       </div>
     </section>
