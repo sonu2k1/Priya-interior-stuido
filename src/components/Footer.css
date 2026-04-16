@@ -137,6 +137,16 @@
 
 .footer__contact-icon {
   font-size: 1rem;
+  flex-shrink: 0;
+}
+
+.footer__contact a {
+  color: #FFFFFF;
+  transition: color var(--transition-fast);
+}
+
+.footer__contact a:hover {
+  color: var(--gold);
 }
 
 /* Bottom */

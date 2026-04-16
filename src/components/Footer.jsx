@@ -58,16 +58,16 @@ const Footer = () => {
               <h4 className="footer__col-title">Contact Us</h4>
               <ul className="footer__contact">
                 <li>
-                  <span className="footer__contact-icon">📍</span>
-                  Pune, Maharashtra, India
-                </li>
-                <li>
                   <span className="footer__contact-icon">📞</span>
-                  +91 98765 43210
+                  <a href="tel:+918390322777">83903 22777</a>
                 </li>
                 <li>
                   <span className="footer__contact-icon">✉️</span>
-                  info@priyainteriorstudio.in
+                  <a href="mailto:priya.interior.studio@gmail.com">priya.interior.studio@gmail.com</a>
+                </li>
+                <li>
+                  <span className="footer__contact-icon">📍</span>
+                  Priya Interior Studio, Near Balewadi Sports Stadium, Balewadi-Wakad Service Road, Pune - 411045
                 </li>
               </ul>
             </div>
@@ -79,7 +79,7 @@ const Footer = () => {
               <p className="footer__credit">Design and Developed By LogicPulse Innovation</p>
             </div>
             <div className="footer__socials">
-              <a href="#" className="footer__social footer__social--instagram" aria-label="Instagram">
+              <a href="https://www.instagram.com/priya_interior_studio/" target="_blank" rel="noopener noreferrer" className="footer__social footer__social--instagram" aria-label="Instagram">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="m16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
               </a>
               <a href="#" className="footer__social footer__social--facebook" aria-label="Facebook">

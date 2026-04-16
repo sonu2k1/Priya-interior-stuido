@@ -49,6 +49,8 @@
   font-weight: 800;
   color: var(--gold);
   letter-spacing: 3px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .guarantee__items {

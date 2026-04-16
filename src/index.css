@@ -119,7 +119,10 @@ ul {
 .trending__title,
 .how-work__title,
 .footer__cta-title {
-  display: inline-block;
+  display: block;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
   padding-bottom: 10px;
   border-bottom: 3px solid var(--gold);
 }
