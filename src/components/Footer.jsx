@@ -28,10 +28,7 @@ const Footer = () => {
             {/* Brand */}
             <div className="footer__brand">
               <div className="footer__logo">
-                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <rect x="8" y="4" width="20" height="20" rx="10" stroke="currentColor" strokeWidth="2.5" fill="none"/>
-                  <path d="M8 14V36" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round"/>
-                </svg>
+                <img src="/logo.svg" alt="Priya Interior Studio Logo" className="footer__logo-img" />
                 <div>
                   <span className="footer__logo-title">Priya</span>
                   <span className="footer__logo-subtitle">Interior Studio</span>

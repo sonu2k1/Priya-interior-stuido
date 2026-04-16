@@ -34,10 +34,15 @@
 }
 
 .navbar__logo-icon {
-  color: var(--gold);
   display: flex;
   align-items: center;
   transition: transform var(--transition-base);
+}
+
+.navbar__logo-img {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
 }
 
 .navbar__logo:hover .navbar__logo-icon {
