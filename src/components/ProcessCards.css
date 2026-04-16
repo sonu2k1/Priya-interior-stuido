@@ -136,16 +136,49 @@
     margin: 0 auto;
     gap: 20px;
   }
-
-
 }
 
 @media (max-width: 600px) {
+  .process {
+    margin-top: -50px;
+  }
+
+  .process__container {
+    padding: 0 16px;
+  }
+
   .why-us__title {
     font-size: 1.7rem;
   }
 
+  .why-us__container {
+    padding: 0 16px;
+  }
+
+  .why-us__desc {
+    font-size: 0.92rem;
+  }
+
   .process-card {
     padding: 30px 20px 28px;
+  }
+
+  .why-us__cta {
+    padding: 12px 32px;
+    font-size: 0.92rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .process {
+    margin-top: -40px;
+  }
+
+  .why-us__title {
+    font-size: 1.5rem;
+  }
+
+  .process-card__title {
+    font-size: 1.15rem;
   }
 }

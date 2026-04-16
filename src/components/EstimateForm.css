@@ -288,4 +288,34 @@
   .estimate-form__options--grid {
     grid-template-columns: 1fr;
   }
+
+  .estimate-form__title {
+    font-size: 1.35rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .estimate-form {
+    padding: 24px 16px;
+  }
+
+  .estimate-form__title {
+    font-size: 1.2rem;
+    margin-bottom: 18px;
+  }
+
+  .estimate-form__submit {
+    padding: 12px 24px;
+    font-size: 0.88rem;
+  }
+
+  .estimate-form__radio {
+    padding: 8px 12px;
+    font-size: 0.82rem;
+  }
+
+  .estimate-form__input {
+    padding: 10px 14px;
+    font-size: 0.85rem;
+  }
 }

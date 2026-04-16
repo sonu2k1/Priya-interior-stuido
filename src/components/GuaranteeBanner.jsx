@@ -13,7 +13,7 @@ const GuaranteeBanner = () => {
       <div className="guarantee__container">
         <div className="guarantee__badge">
           <div className="guarantee__badge-icon">
-            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" stroke="currentColor" strokeWidth="2.5">
+            <svg width="28" height="28" viewBox="0 0 40 40" fill="none" stroke="currentColor" strokeWidth="2.5">
               <circle cx="20" cy="20" r="16" />
               <path d="M12 20l5 5 11-11" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>

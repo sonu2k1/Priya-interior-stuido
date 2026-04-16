@@ -215,6 +215,17 @@
     font-size: 2rem;
   }
 
+  .hero__subtitle {
+    font-size: 0.95rem;
+    margin-bottom: 28px;
+  }
+
+  .hero__badge {
+    font-size: 0.72rem;
+    padding: 6px 14px;
+    margin-bottom: 20px;
+  }
+
   .hero__stats {
     gap: 16px;
     flex-wrap: wrap;
@@ -226,6 +237,20 @@
   }
 
   .hero__container {
-    padding: 120px 20px 60px;
+    padding: 110px 16px 50px;
+  }
+}
+
+@media (max-width: 400px) {
+  .hero__title {
+    font-size: 1.7rem;
+  }
+
+  .hero__stat-number {
+    font-size: 1.2rem;
+  }
+
+  .hero__stat-label {
+    font-size: 0.7rem;
   }
 }

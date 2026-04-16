@@ -21,13 +21,7 @@ const HappyCustomers = () => {
             Get Free Estimate Price
           </button>
         </div>
-        <div className="happy__image-wrapper">
-          <img
-            src="/images/interior9.jpg"
-            alt="Happy customers enjoying their new interior"
-            className="happy__image"
-          />
-        </div>
+
       </div>
     </section>
   );

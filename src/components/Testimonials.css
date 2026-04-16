@@ -112,7 +112,33 @@
 }
 
 @media (max-width: 600px) {
+  .testimonials__container {
+    padding: 0 16px;
+  }
+
   .testimonials__title {
     font-size: 1.8rem;
+  }
+
+  .testimonials__header {
+    margin-bottom: 32px;
+  }
+
+  .testimonial-card {
+    padding: 24px 20px;
+  }
+
+  .testimonial-card__text {
+    font-size: 0.88rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .testimonials__title {
+    font-size: 1.5rem;
+  }
+
+  .testimonial-card__name {
+    font-size: 0.88rem;
   }
 }

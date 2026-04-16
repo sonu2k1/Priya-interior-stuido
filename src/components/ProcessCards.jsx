@@ -4,8 +4,8 @@ const processData = [
   {
     icon: (
       <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M6 4H26C27.1 4 28 4.9 28 6V26C28 27.1 27.1 28 26 28H6C4.9 28 4 27.1 4 26V6C4 4.9 4.9 4 6 4Z" stroke="currentColor" strokeWidth="2" fill="none"/>
-        <path d="M9 10H23M9 16H23M9 22H17" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
+        <path d="M6 4H26C27.1 4 28 4.9 28 6V26C28 27.1 27.1 28 26 28H6C4.9 28 4 27.1 4 26V6C4 4.9 4.9 4 6 4Z" stroke="currentColor" strokeWidth="2" fill="none" />
+        <path d="M9 10H23M9 16H23M9 22H17" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
       </svg>
     ),
     title: 'Consultation',
@@ -14,8 +14,8 @@ const processData = [
   {
     icon: (
       <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M22 4L28 10L10 28H4V22L22 4Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-        <path d="M18 8L24 14" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
+        <path d="M22 4L28 10L10 28H4V22L22 4Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+        <path d="M18 8L24 14" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
       </svg>
     ),
     title: 'Design',
@@ -24,10 +24,10 @@ const processData = [
   {
     icon: (
       <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <rect x="4" y="4" width="10" height="10" rx="2" stroke="currentColor" strokeWidth="2" fill="none"/>
-        <rect x="18" y="4" width="10" height="10" rx="2" stroke="currentColor" strokeWidth="2" fill="none"/>
-        <rect x="4" y="18" width="10" height="10" rx="2" stroke="currentColor" strokeWidth="2" fill="none"/>
-        <rect x="18" y="18" width="10" height="10" rx="2" stroke="currentColor" strokeWidth="2" fill="none"/>
+        <rect x="4" y="4" width="10" height="10" rx="2" stroke="currentColor" strokeWidth="2" fill="none" />
+        <rect x="18" y="4" width="10" height="10" rx="2" stroke="currentColor" strokeWidth="2" fill="none" />
+        <rect x="4" y="18" width="10" height="10" rx="2" stroke="currentColor" strokeWidth="2" fill="none" />
+        <rect x="18" y="18" width="10" height="10" rx="2" stroke="currentColor" strokeWidth="2" fill="none" />
       </svg>
     ),
     title: 'Execution',

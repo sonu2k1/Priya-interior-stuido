@@ -135,19 +135,56 @@
 }
 
 @media (max-width: 768px) {
+  .how-work {
+    padding: 60px 0;
+  }
+
+  .how-work__container {
+    padding: 0 16px;
+  }
+
+  .how-work__title {
+    font-size: 1.8rem;
+    margin-bottom: 36px;
+  }
+
   .how-work__grid {
     grid-template-columns: 1fr;
     max-width: 500px;
     gap: 40px;
   }
+
+  .how-work__form-wrapper {
+    width: 100%;
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 600px) {
   .how-work__title {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
   }
 
   .how-work__number {
     font-size: 3rem;
+  }
+
+  .how-work__step-desc {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .how-work {
+    padding: 40px 0;
+  }
+
+  .how-work__number {
+    font-size: 2.5rem;
+  }
+
+  .how-work__step-title {
+    font-size: 1.05rem;
   }
 }

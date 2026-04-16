@@ -95,6 +95,14 @@
 }
 
 @media (max-width: 600px) {
+  .solutions {
+    padding: 50px 0;
+  }
+
+  .solutions__container {
+    padding: 0 16px;
+  }
+
   .solutions__grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 24px 16px;
@@ -107,5 +115,25 @@
 
   .solutions__title {
     font-size: 1.6rem;
+    margin-bottom: 32px;
+  }
+
+  .solution-item__label {
+    font-size: 0.82rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .solutions__grid {
+    gap: 20px 12px;
+  }
+
+  .solution-item__icon {
+    width: 52px;
+    height: 52px;
+  }
+
+  .solutions__title {
+    font-size: 1.4rem;
   }
 }

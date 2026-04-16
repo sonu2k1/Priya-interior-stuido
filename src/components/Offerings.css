@@ -87,6 +87,14 @@
 }
 
 @media (max-width: 600px) {
+  .offerings {
+    padding: 50px 0;
+  }
+
+  .offerings__container {
+    padding: 0 16px;
+  }
+
   .offerings__grid {
     grid-template-columns: 1fr;
     max-width: 400px;
@@ -95,5 +103,16 @@
 
   .offerings__title {
     font-size: 1.6rem;
+    margin-bottom: 32px;
+  }
+
+  .offering-card__content {
+    padding: 18px 16px;
+  }
+}
+
+@media (max-width: 400px) {
+  .offerings__title {
+    font-size: 1.4rem;
   }
 }
