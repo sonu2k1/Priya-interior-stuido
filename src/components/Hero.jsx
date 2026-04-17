@@ -16,7 +16,7 @@ const Hero = () => {
         <div className="hero__content">
           <div className="hero__badge">
             <span className="hero__badge-dot" />
-            Trusted by 500+ Homeowners
+            Trusted by 50+ Homeowners
           </div>
           <h1 className="hero__title">
             Premium Home<br />
@@ -27,17 +27,17 @@ const Hero = () => {
           </p>
           <div className="hero__stats">
             <div className="hero__stat">
-              <span className="hero__stat-number">500+</span>
+              <span className="hero__stat-number">50+</span>
               <span className="hero__stat-label">Projects Done</span>
             </div>
             <div className="hero__stat-divider" />
             <div className="hero__stat">
-              <span className="hero__stat-number">15+</span>
+              <span className="hero__stat-number">2+</span>
               <span className="hero__stat-label">Years Experience</span>
             </div>
             <div className="hero__stat-divider" />
             <div className="hero__stat">
-              <span className="hero__stat-number">98%</span>
+              <span className="hero__stat-number">99%</span>
               <span className="hero__stat-label">Happy Clients</span>
             </div>
           </div>
