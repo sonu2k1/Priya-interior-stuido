@@ -244,17 +244,37 @@
     display: block;
     padding: 14px 0;
     font-size: 1.05rem;
+    color: var(--charcoal) !important;
     border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  }
+
+  .navbar__link:hover {
+    color: var(--gold) !important;
   }
 
   .navbar__link::after {
     display: none;
   }
 
+  .navbar__hamburger span {
+    background: var(--charcoal);
+  }
+
+  .navbar--scrolled .navbar__hamburger span {
+    background: var(--charcoal);
+  }
+
   .navbar__cta-mobile .navbar__cta {
     width: 100%;
     margin-top: 16px;
     text-align: center;
+    color: var(--gold-dark);
+    border-color: var(--gold);
+  }
+
+  .navbar__cta-mobile .navbar__cta:hover {
+    background: var(--gold);
+    color: var(--white);
   }
 }
 
