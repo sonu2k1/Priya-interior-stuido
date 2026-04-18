@@ -32,7 +32,7 @@ const Hero = () => {
             </div>
             <div className="hero__stat-divider" />
             <div className="hero__stat">
-              <span className="hero__stat-number">2+</span>
+              <span className="hero__stat-number">5+</span>
               <span className="hero__stat-label">Years Experience</span>
             </div>
             <div className="hero__stat-divider" />
